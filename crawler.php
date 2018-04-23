@@ -61,7 +61,6 @@ function ckeck_ext(string $url){
 	    case (strpos($value, '.js') !== false):
 	    case (strpos($value, '.xml') !== false):
 	    case (strpos($value, '.ico') !== false):
-	    case (strpos($value, '.php') !== false):
 			return false;
 	}
 	
